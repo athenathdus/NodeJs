@@ -1,0 +1,25 @@
+{
+  "name": "fetch",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "node-static": "^0.7.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/athenathdus/NodeJs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/athenathdus/NodeJs/issues"
+  },
+  "homepage": "https://github.com/athenathdus/NodeJs#readme"
+}

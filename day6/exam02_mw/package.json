@@ -1,11 +1,12 @@
 {
-  "name": "exam0",
+  "name": "exam01_hello",
   "version": "1.0.0",
   "description": "",
   "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=dev nodemon index",
+    "start": "cross-env NODE_ENV=dev node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -15,7 +16,6 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "cross": "^1.0.0",
     "nodemon": "^2.0.12"
   }
 }

@@ -1,0 +1,9 @@
+### test get hello
+GET http://localhost:8080/hello
+
+### test post insert
+POST http://localhost:8080/insert
+Content-Type: application/json
+
+{"title":"test1",
+"text:item1"}

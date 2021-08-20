@@ -1,7 +1,11 @@
 import express from 'express'
 import dotenv from 'dotenv'
 import { MongoClient } from 'mongodb'
+
+import memoDbRouter from './db_memo.js'
+
 dotenv.config();
+
 
 
 (async () => {
@@ -16,6 +20,7 @@ dotenv.config();
         //express 실행
         const app = express();
         app.use(express.json()); //json 미들웨어 등록 , 바디파서
+        app.use('/api/v1/memo/', memoDbRouter(db_client));
 
         if (process.env.NODE_ENV == 'dev') {
             app.get('/hello', (req, res) => {
